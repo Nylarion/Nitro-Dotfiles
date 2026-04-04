@@ -4,7 +4,11 @@ Mis dotfiles, no pretendo que sea nada impresionante, solo son para dejar Hyprla
 
 ## Paquetes necesarios
 
-### Jetbrains Nerd Font
+### Jetbrains Nerd Font:
 
 - Instalación: paru -S nerd-fonts-jetbrains-mono
 - Para actualizar las fuentes: fc-cache -fv
+
+### Wlogout:
+
+- Instalación: paru -S wlogout
