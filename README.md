@@ -12,3 +12,7 @@ Mis dotfiles, no pretendo que sea nada impresionante, solo son para dejar Hyprla
 ### Wlogout:
 
 - Instalación: paru -S wlogout
+
+### Swaybg:
+
+- Instalación: sudo pacman -S swaybg
