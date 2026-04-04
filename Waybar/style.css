@@ -34,7 +34,8 @@ window#waybar {
 #clock,
 #battery,
 #network,
-#pulseaudio{
+#pulseaudio,
+#custom-wlogout{
   padding: 6px 12px;
   margin: 4px 6px;
   border-radius: 10px;
