@@ -16,7 +16,8 @@
   "modules-right": [
     "pulseaudio",
     "network",
-    "battery"
+    "battery",
+    "custom/wlogout"
   ],
 
   "clock": {
@@ -49,5 +50,12 @@
   "custom/launcher": {
     "format": "Menu ",
     "on-click": "rofi -show drun"
+  },
+
+  "custom/wlogout": {
+    "exec": "echo ' ⏻ '",
+    "on-click": "wlogout",
+    "tooltip": "Cerrar sesión / apagar",
+    "interval": 0
   },
 }
