@@ -9,6 +9,10 @@ Mis dotfiles, no pretendo que sea nada impresionante, solo son para dejar Hyprla
 - Instalación: sudo pacman -S ttf-jetbrains-mono-nerd
 - Para actualizar las fuentes: fc-cache -fv
 
+### Waybar:
+
+- Instalación: sudo pacman -S waybar
+
 ### Wlogout:
 
 - Instalación: paru -S wlogout
