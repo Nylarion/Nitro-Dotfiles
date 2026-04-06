@@ -6,7 +6,7 @@ Mis dotfiles, no pretendo que sea nada impresionante, solo son para dejar Hyprla
 
 ### Jetbrains Nerd Font:
 
-- Instalación: paru -S nerd-fonts-jetbrains-mono
+- Instalación: sudo pacman -S ttf-jetbrains-mono-nerd
 - Para actualizar las fuentes: fc-cache -fv
 
 ### Wlogout:
