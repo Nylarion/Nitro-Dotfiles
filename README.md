@@ -16,3 +16,11 @@ Mis dotfiles, no pretendo que sea nada impresionante, solo son para dejar Hyprla
 ### Swaybg:
 
 - Instalación: sudo pacman -S swaybg
+
+### Rofi:
+
+- Instalación: sudo pacman -S rofi
+
+### NetworkManager Menú:
+
+- Instalación: sudo pacman -S networkmanager-dmenu
