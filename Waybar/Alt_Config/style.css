@@ -1,0 +1,82 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font";
+  font-size: 13px;
+  border: none;
+  border-radius: 0;
+  color: #e63946; /* rojo para texto y acentos */
+}
+
+window#waybar {
+  /* Gradiente suave de negro a rojo */
+  background: linear-gradient(to right, 
+    rgba(0, 0, 0, 0.7) 0%, 
+    rgba(0, 0, 0, 0.7) 0%, 
+    rgba(0, 0, 0, 0.7) 0%, 
+    rgba(0, 0, 0, 0.7) 0%);
+  color: #e63946;
+}
+
+#workspaces{
+  padding: 0px 3px;
+  margin: 4px 6px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.6); /* negro translúcido */
+  color: #e63946;
+  transition: background 0.3s ease;
+}
+
+#custom-launcher,
+#custom-wlogout {
+  padding: 6px 12px;
+  margin: 4px 6px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.6); /* negro translúcido */
+  color: #e63946;
+  transition: background 0.3s ease;
+}
+
+#custom-launcher:hover {
+  background: rgba(230, 57, 70, 0.75);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#tray{
+  padding: 6px 12px;
+  margin: 4px 0px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.6); /* negro translúcido */
+  color: #e63946;
+  transition: background 0.3s ease;
+}
+
+#clock:hover,
+#battery:hover,
+#network:hover,
+#pulseaudio:hover {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff0f0;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  text-shadow: none;
+}
+
+#tray {
+  border-radius: 7px;
+  margin: 4px 6px;
+  padding: 6px 12px;
+  color: #e63946;
+}
+
+#battery.warning {
+  color: #f4a261;
+}
+
+#battery.critical {
+  color: #e63946;
+}
