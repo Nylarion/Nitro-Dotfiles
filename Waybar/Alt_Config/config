@@ -1,0 +1,75 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "spacing": 10,
+
+  "modules-left": [
+    "custom/launcher",
+    "hyprland/workspaces"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "pulseaudio",
+    "network",
+    "battery",
+    "custom/wlogout"
+  ],
+
+  "clock": {
+    "format": "  {:%H:%M}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+
+  "battery": {
+    "format": "  {capacity}%",
+    "format-charging": " {capacity}%",
+    "warning": 30,
+    "critical": 15
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  Connected",
+    "format-disconnected": "⚠ Disconnected",
+    "on-click": "networkmanager_dmenu -theme ~/Descargas/Arc-Dark.rasi"
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": " Muted"
+  },
+
+  "tray": {
+    "spacing": 10
+  },
+
+  "custom/launcher": {
+    "format": "Menu  ",
+    "on-click": "rofi -show drun -theme ~/Descargas/Arc-Dark.rasi"
+  },
+
+  "custom/wlogout": {
+    "exec": "echo ' ⏻ '",
+    "on-click": "wlogout",
+    "tooltip": "Cerrar sesión / apagar",
+    "interval": 0
+  },
+  
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "active": "●",
+      "default": "○"
+    },
+    "on-click": "activate",
+    "all-outputs": true,
+    "persistent-workspaces": {
+      "*": 10
+    }
+  },
+}
